@@ -3,15 +3,14 @@
 ## Requirements
 
 To install the necessary packages, please run the following command in your terminal:
-
-    ```bash
+    ```
     pip install albumentations==1.0.3 segmentation-models-pytorch==0.3.0 torchinfo wandb torchsummary torchgeometry pyyaml optuna optuna-integration[pytorch_lightning]`
     ```
 
 ## Instructions to Run Inference
 
 1. Clone the repository:
-    ```bash
+    ```
     git clone https://github.com/xt2201/BKAI-IGH-NeoPolyp_Asignment_3_Intro_to_Deep_Learning.git
     cd 'BKAI-IGH-NeoPolyp_Asignment_3_Intro_to_Deep_Learning'
     ```
@@ -21,7 +20,7 @@ To install the necessary packages, please run the following command in your term
     - Place the `best_model.pth.tar` file in the `checkpoints/` directory of this repository.
 
 3. Run the inference script:
-    ```bash
+    ```
     python3 infer.py --image_path image.jpeg
     ```
 
